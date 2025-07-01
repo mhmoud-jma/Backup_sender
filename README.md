@@ -151,6 +151,9 @@ This approach is temporary while I am still learning advanced encryption techniq
 
 See the [Roadmap](#roadmap) for planned security improvements.
 
+⚠️ License Notice:
+Backup_sender is free for personal and educational use. Companies may use it as-is (non-modifiable). Any modifications or commercial distribution require prior written permission.
+
 ## 🚀 Roadmap
 
 - [ ] Implement encryption for secrets using OpenSSL or GPG
