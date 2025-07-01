@@ -141,3 +141,19 @@ For production or sensitive use, use stronger encryption (e.g. GPG) or environme
 
 👉 github.com/mhmoud‑jma/Backup_sender
 
+## ⚠️ Security Notice
+
+Currently, this script uses Base64 encoding to hide sensitive tokens or credentials. Please note that **Base64 is NOT encryption** and should not be considered secure for protecting secrets.
+
+This approach is temporary while I am still learning advanced encryption techniques. A future update will replace Base64 with proper encryption methods (e.g. OpenSSL, GPG) to improve the security of stored secrets.
+
+**Until then, use this script with caution and never share your encoded secrets publicly.**
+
+See the [Roadmap](#roadmap) for planned security improvements.
+
+## 🚀 Roadmap
+
+- [ ] Implement encryption for secrets using OpenSSL or GPG
+- [ ] Improve logging and error handling
+- [ ] Add support for cloud storage providers (e.g. AWS S3, Google Drive)
+- [ ] Create interactive CLI menus for easier usage
