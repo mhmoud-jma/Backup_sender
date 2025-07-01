@@ -73,9 +73,9 @@ Send:
 
 2. Retrieve Your Chat ID
 
-Send:
+Send your username to :
 
-id
+@IDHunter_Bot
 
 The bot will reply with your numeric Chat ID—copy it.
 
@@ -91,8 +91,8 @@ The bot will reply with your numeric Chat ID—copy it.
 Do you want to change the Telegram Chat ID? (y/N)
 
 
-
-
+4. You will get the backup copy in Telegram from the bot : 
+@Backup_senderr_bot
 ---
 
 🛠 Example Usage
